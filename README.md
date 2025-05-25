@@ -1,16 +1,20 @@
-# FADI Health Site
+# FADI Health Website
 
-This is the initial public website for the FADI Health App.
+This is the official MVP version of the FADI Health platform.
 
-## How to deploy to GitHub and Vercel:
+## How to Deploy:
 
-1. Unzip this package.
-2. Open terminal and initialize the git repo:
-   ```
-   git init
-   git remote add origin https://github.com/YOUR_USERNAME/fadi-health-site.git
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
-   ```
-3. Go to [https://vercel.com](https://vercel.com) and import the GitHub repo.
+1. Unzip this folder.
+2. Open terminal in the folder.
+3. Run the following commands:
+
+```
+git init
+git remote add origin https://github.com/fadihealth/Fadihealth.com.git
+git add .
+git commit -m "Initial MVP site"
+git branch -M main
+git push -u origin main
+```
+
+4. Go to https://vercel.com, import the GitHub repo, and click **Deploy**.
